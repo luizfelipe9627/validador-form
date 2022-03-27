@@ -1,0 +1,74 @@
+/*
+    GERAL ↴
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/*
+    AREA TELA ↴
+*/
+
+.screen {
+    display: flex;
+    height: 100vh;
+}
+
+/*
+    AREA FOTO ↴
+*/
+
+.area-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.area-photo img {
+    max-width: 700px;
+    height: auto;
+}
+
+/*
+    AREA FORMULÁRIO ↴
+*/
+
+.area-form {
+    width: 400px;
+    background-color: #ddd;
+    padding: 50px;
+   
+}
+
+.area-form label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.area-form input {
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+.login a {
+    text-decoration: none;
+    color: #0000CD;
+}
+
+.error {
+    font-size: 13px;
+    background-color: #FF0000;
+    color: #FFF;
+    padding: 4px;
+    border-radius: 5px;
+}

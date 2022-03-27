@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=0">
+        <title>Validador de Formulário</title>
+        <link href="https://luizfelipe9627.github.io/form-login/css/style.css" rel="stylesheet"/>  
+        <link rel="stylesheet" href="/css/style.css" />
+    </head>
+
+    <body>
+        <div class="screen">
+            <div class="area-photo">
+                <img src="https://luizfelipe9627.github.io/form-login/images/financial_data.png" alt="">
+            </div>
+
+            <div class="area-form">
+                <h1>Crie uma conta</h1>
+
+                <form action="cadastro.php" method="post" class="validador">
+                    <label>
+                        Seu nome:<br>
+                        <input type="text" name="name" data-rules="required/min=4">
+                    </label>
+
+                    <label>
+                        Seu e-mail:<br>
+                        <input type="text" name="email" data-rules="required/email">
+                    </label>
+
+                    <label>
+                        Sua senha:<br>
+                        <input type="password" name="password" data-rules="required/min=4">
+                    </label>
+
+                    <label>
+                        <input type="submit" name="cadastrar">
+                    </label>
+                </form>
+
+                <div class="login">
+                    Já tem uma conta? <a href="">Faça login</a>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://luizfelipe9627.github.io/form-login/js/script.js"></script>
+    </body>
+</html>
