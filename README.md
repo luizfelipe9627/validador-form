@@ -7,7 +7,7 @@
 Foi criado um formulário de login simples, que contem um validador próprio feito em JavaScript.
 
 ## 📑 Observação
-Esse projeto foi criado com o intuito de práticar e aumentar o conhecimento em JavaScript. 
+Esse projeto foi criado com o intuito de práticar e aumentar o conhecimento em JavaScript. Ele está responsivo somente para desktop.
 
 ### <a href="https://luizfelipe9627.github.io/form-login">Acesse o site</a>
 
@@ -16,6 +16,21 @@ Esse projeto foi criado com o intuito de práticar e aumentar o conhecimento em 
 - ``HTML5``
 - ``CSS3``
 - ``JavaScript``
+
+## 🧑‍💻 Criador
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/luizfelipe9627">
+        <img src="https://github.com/luizfelipe9627.png" width="100px;" alt="Foto de Luiz Felipe Silva no GitHub"/><br>
+        <sub>
+          <b>Luiz Felipe Silva</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## 📷 Me siga nas redes sociais<br>
 
