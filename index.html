@@ -3,48 +3,56 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, user-scalable=0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Validador de Formulário</title>
-        <link href="https://luizfelipe9627.github.io/form-login/css/style.css" rel="stylesheet"/>  
-        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/style.min.css">
     </head>
 
     <body>
-        <div class="screen">
-            <div class="area-photo">
-                <img src="https://luizfelipe9627.github.io/form-login/assets/images/financial_data.png" alt="">
-            </div>
-
-            <div class="area-form">
-                <h1>Crie uma conta</h1>
-
-                <form action="cadastro.php" method="post" class="validador">
-                    <label>
-                        Seu nome:<br>
-                        <input type="text" name="name" data-rules="required/min=4">
-                    </label>
-
-                    <label>
-                        Seu e-mail:<br>
-                        <input type="text" name="email" data-rules="required/email">
-                    </label>
-
-                    <label>
-                        Sua senha:<br>
-                        <input type="password" name="password" data-rules="required/min=4">
-                    </label>
-
-                    <label>
-                        <input type="submit" name="cadastrar">
-                    </label>
-                </form>
-
-                <div class="login">
-                    Já tem uma conta? <a href="">Faça login</a>
+        <main>
+            <section aria-label="Formulário de cadastro">
+                <div class="screen">
+                    <div class="area-photo">
+                        <img src="./assets/image/fundo.webp" alt="Monitor grande e um homem pequeno" width="700" height="458">
+                    </div>
+        
+                    <div class="area-form">
+                        <h1>
+                            Crie uma conta
+                        </h1>
+        
+                        <!--Em formulário deve ser colocar method="post" para não aparecer as informações do usuário na URL. Foi usado o GET somente para fazer voltar para a página principal.-->
+                        <form action="./index.html" method="get" class="validador"> 
+                            <label>
+                                Seu nome:<br>
+                                <input type="text" name="name" data-rules="required/min=4">
+                            </label>
+        
+                            <label>
+                                Seu e-mail:<br>
+                                <input type="text" name="email" data-rules="required/email">
+                            </label>
+        
+                            <label>
+                                Sua senha:<br>
+                                <input type="password" name="password" data-rules="required/min=4">
+                            </label>
+        
+                            <label>
+                                <input type="submit" name="cadastrar">
+                            </label>
+                        </form>
+        
+                        <div class="login">
+                            Já tem uma conta? 
+                            <a href="#logar">
+                                Faça login
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-
-        <script src="https://luizfelipe9627.github.io/form-login/js/script.js"></script>
+            </section>
+        </main>
+        <script src="./assets/js/script.min.js"></script>
     </body>
 </html>
