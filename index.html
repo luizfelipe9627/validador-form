@@ -17,24 +17,31 @@
                     </div>
         
                     <div class="area-form">
-                        <h1>
-                            Crie uma conta
-                        </h1>
+                        <h1>Crie uma conta</h1>
         
                         <!--Em formulário deve ser colocar method="post" para não aparecer as informações do usuário na URL. Foi usado o GET somente para fazer voltar para a página principal.-->
                         <form action="./index.html" method="get" class="validador"> 
                             <label>
-                                Seu nome:<br>
+                                Seu nome:
+
+                                <br>
+
                                 <input type="text" name="name" data-rules="required/min=4">
                             </label>
         
                             <label>
-                                Seu e-mail:<br>
+                                Seu e-mail:
+
+                                <br>
+
                                 <input type="text" name="email" data-rules="required/email">
                             </label>
         
                             <label>
-                                Sua senha:<br>
+                                Sua senha:
+
+                                <br>
+
                                 <input type="password" name="password" data-rules="required/min=4">
                             </label>
         
@@ -45,9 +52,8 @@
         
                         <div class="login">
                             Já tem uma conta? 
-                            <a href="#logar">
-                                Faça login
-                            </a>
+
+                            <a href="#logar">Faça login</a>
                         </div>
                     </div>
                 </div>
