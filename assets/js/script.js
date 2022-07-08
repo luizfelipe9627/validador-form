@@ -94,14 +94,3 @@ let form = document.querySelector('.validador');
 
 // Responsável por monitorar quando o formulário receber o comando de envio e assim realiza uma ação.
 form.addEventListener('submit', validador.handleSubmit);
-
-//
-
-
-//
-
-
-//
-
-
-//
