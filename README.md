@@ -1,15 +1,15 @@
 # Validador de Formulário
 ![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
 
-<img src="https://github.com/luizfelipe9627/form-login/blob/master/assets/videos/form-login.gif" alt="Site">
+<img src="https://github.com/luizfelipe9627/form-login/blob/master/assets/video/validador-form.gif" alt="Apresentação do Validador de formulário">
 
 ## 📄 Descrição
-Foi criado um formulário de login simples, que contem um validador próprio feito em JavaScript.
+Foi criado um formulário de cadastro simples, que contem um validador próprio feito em JavaScript.
 
 ## 📑 Observação
-Esse projeto foi criado com o intuito de práticar e aumentar o conhecimento em JavaScript. Ele está responsivo somente para desktop.
+Esse projeto foi criado com o intuito de praticar e aumentar o conhecimento em JavaScript. Ele está responsivo para todos os dispositivos.
 
-### <a href="https://luizfelipe9627.github.io/form-login">Acesse o site</a>
+### <a href="https://luizfelipe9627-validador-form.netlify.app">Acesse o site</a>
 
 ## 💻 Tecnologias utilizadas
 
