@@ -1,0 +1,28 @@
+.screen {
+  display: flex;
+  height: 100vh;
+}
+
+.area-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.area-photo img {
+  max-width: 700px;
+  height: auto;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .area-photo {
+    display: none;
+  }
+}
+
+@media (width: 768px) {
+  .area-photo img {
+    max-width: 50vw;
+  }
+}
