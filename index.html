@@ -21,38 +21,31 @@
         
                         <!--Em formulário deve ser colocar method="post" para não aparecer as informações do usuário na URL. Foi usado o GET somente para fazer voltar para a página principal.-->
                         <form action="./index.html" method="get" class="validador"> 
-                            <label>
-                                Seu nome:
-
-                                <br>
-
-                                <input type="text" name="name" data-rules="required/min=4">
-                            </label>
-        
-                            <label>
-                                Seu e-mail:
-
-                                <br>
-
-                                <input type="text" name="email" data-rules="required/email">
-                            </label>
-        
-                            <label>
-                                Sua senha:
-
-                                <br>
-
-                                <input type="password" name="password" data-rules="required/min=4">
-                            </label>
-        
-                            <label>
-                                <input type="submit" name="cadastrar">
-                            </label>
+                            <div>
+                                <label for="name">Nome:</label>
+                                <input type="text" id="name" placeholder="Digite seu nome" data-rules="required/min=4">
+                            </div>
+                            
+                            <div>
+                                <label for="sobrenome">Sobrenome:</label>
+                                <input type="text" id="name" placeholder="Digite seu sobrenome" data-rules="required/min=4">
+                            </div>
+                            
+                            <div>
+                                <label for="email">E-mail:</label>
+                                <input type="text" id="email" placeholder="Digite seu e-mail" data-rules="required/email">
+                            </div>
+                            
+                            <div>
+                                <label for="password">Senha:</label>
+                                <input type="password" id="password" placeholder="Digite sua senha" data-rules="required/min=4">
+                            </div>
+                            
+                            <input type="submit" name="cadastrar">
                         </form>
         
                         <div class="login">
                             Já tem uma conta? 
-
                             <a href="#logar">Faça login</a>
                         </div>
                     </div>

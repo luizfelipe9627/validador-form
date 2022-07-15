@@ -1,21 +1,24 @@
 .area-form {
-  width: 400px;
+  width: 25rem;
   background-color: #ddd;
-  padding: 50px;
+  padding: 3.125rem;
 }
 
-.area-form label {
-  display: block;
-  margin-bottom: 20px;
+.area-form div {
+  margin-bottom: 1.25rem;
 }
 
 .area-form input {
   width: 100%;
-  border: 1px solid #999;
-  border-radius: 5px;
-  padding: 8px;
-  font-size: 14px;
+  border: 0.0625rem solid #999;
+  border-radius: 0.3125rem;
+  padding: 0.5rem;
+  font-size: 0.875rem;
   outline: none;
+}
+
+input[type="submit"] {
+  margin-bottom: 1.25rem;
 }
 
 input[type="submit"]:hover {
@@ -28,11 +31,11 @@ input[type="submit"]:hover {
 }
 
 .error {
-  font-size: 13px;
+  font-size: 0.8125rem;
   background-color: #FF0000;
   color: #FFF;
-  padding: 4px;
-  border-radius: 5px;
+  padding: 0.25rem;
+  border-radius: 0.3125rem;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
