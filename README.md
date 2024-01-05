@@ -1,7 +1,7 @@
 # Validador de formulário
 ![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
 
-<img src="https://github.com/luizfelipe9627/form-login/blob/master/assets/video/validador-form.gif" alt="Apresentação do Validador de formulário">
+<img src="https://github.com/luizfelipe9627/form-login/blob/main/assets/video/validador-form.gif" alt="Apresentação do Validador de formulário">
 
 ## 📄 Descrição
 Foi criado um formulário de cadastro simples, que contem um validador próprio feito em JavaScript.
